@@ -1,0 +1,3 @@
+target ‘newLayerAnimation’ do
+	pod ‘pop’
+end
