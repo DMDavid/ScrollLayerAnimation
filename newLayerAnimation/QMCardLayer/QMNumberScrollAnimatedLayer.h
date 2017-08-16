@@ -18,3 +18,12 @@
 - (void)stopAnimation;
 
 @end
+
+
+@interface QMScrollLayer : CAScrollLayer
+@property (nonatomic, assign) int tag;
+@property (nonatomic, assign) CGFloat number;
+@property (nonatomic, assign) CGFloat eachOffsetY;
+@property (nonatomic, assign) CGFloat maxY;
+@property (nonatomic, assign) CFTimeInterval beforeDuration;
+@end
